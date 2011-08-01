@@ -22,8 +22,8 @@ Gem::Specification.new do |s|
   s.add_dependency 'mail'
   s.add_dependency 'nokogiri'
   s.add_dependency 'css_parser_master'
-  s.add_development_dependency 'rake'
-  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'rake', '~> 0.8.7'
+  s.add_development_dependency 'rspec', '~> 2.6.0'
   s.add_development_dependency 'guard'
   s.add_development_dependency 'guard-rspec'
   s.add_development_dependency 'rb-fsevent' if RUBY_PLATFORM =~ /darwin/
