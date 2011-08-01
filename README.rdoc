@@ -1,0 +1,25 @@
+= MailInlineCss
+
+Automatically inlines CSS classes as style attributes for every HTML mail you send with the mail gem. 
+Including every mail that is send with Rails' >= 3 ActionMailer classes.
+
+
+== Installation
+
+Add 
+    gem 'mail_inline_css'
+to your Gemfile and execute
+    bundle install
+
+Now all HTML-Mails that you send should have their CSS declarations inlined as style attributes.
+
+== Configuration
+
+None at the moment. 
+
+== Rational
+
+If you want the best Mail User Agent support for your emails, you have to inline CSS declarations 
+(see e.g. http://groundwire.org/support/articles/css-and-email-newsletters ). 
+But editing the HTML templates can quickly become a nightmare. This gem automatically inlines 
+CSS declarations.
