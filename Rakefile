@@ -22,6 +22,7 @@ Rake::RDocTask.new(:rdoc) do |rdoc|
   rdoc.options << '-m' << 'README.rdoc'
 
   rdoc.rdoc_files.include('README.rdoc')
+  rdoc.rdoc_files.include('TODO.rdoc')
   rdoc.rdoc_files.include('LICENSE')
   rdoc.rdoc_files.include('lib/**/*.rb')
 

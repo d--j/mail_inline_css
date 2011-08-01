@@ -1,0 +1,7 @@
+* add more tests (e.g. testing CSS specificity)
+
+* follow <link> tags and also inline CSS declarations found in them
+
+* add configuration options
+
+* add some default CSS from https://github.com/seanpowell/Email-Boilerplate
