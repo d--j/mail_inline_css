@@ -1,0 +1,1 @@
+rvm gemset use mail_inline_css 2>&1 > /dev/null || rvm gemset create mail_inline_css
