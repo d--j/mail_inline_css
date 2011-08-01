@@ -33,9 +33,9 @@ module MailInlineCss
       css_doc = CssParserMaster::Parser.new
       html_doc.css('style', 'link[rel=stylesheet]').each do |element|
         case element.name.downcase
-        when 'style': 
+        when 'style'
           css_doc.add_block!(element.content)
-        when 'link':
+        when 'link'
           # TODO: handle <link> tags
         end
       end
