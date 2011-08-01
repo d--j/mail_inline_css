@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "mail_inline_css/version"
 
 Gem::Specification.new do |s|
-  s.name        = "mailer_inline_css"
+  s.name        = "mail_inline_css"
   s.version     = MailInlineCss::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Daniel Jagszent"]
